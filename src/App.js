@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar'
 import Carrousel from './components/Carrousel'
-import Itemlistcontainer from './components/Itemlistcontainer';
+import ItemListContainer from './components/ItemListContainer';
 import Footer from './components/Footer';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Carrousel/>
-      <Itemlistcontainer titulo="Bienvenido al List Container"/>
+      <ItemListContainer titulo="Bienvenido al List Container"/>
       <Footer/>
     </div>
   );

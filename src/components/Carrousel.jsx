@@ -8,13 +8,13 @@ function Carrousel (){
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://http2.mlstatic.com/D_NQ_893119-MLA49703439225_042022-OO.webp" class="d-block w-100" width="1024" height='217' alt="..."/>
+      <img src="https://http2.mlstatic.com/D_NQ_893119-MLA49703439225_042022-OO.webp" class="d-block w-100" width="1024" height='300' alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="https://http2.mlstatic.com/D_NQ_890120-MLA49714125729_042022-OO.webp" class="d-block w-100" width="1024" height='217' alt="height: 350px"/>
+      <img src="https://http2.mlstatic.com/D_NQ_890120-MLA49714125729_042022-OO.webp" class="d-block w-100" width="1024" height='300' alt="height: 350px"/>
     </div>
     <div class="carousel-item">
-      <img src="https://http2.mlstatic.com/D_NQ_810443-MLA49654450726_042022-OO.webp" class="d-block w-100" width="1024" height='217' alt="height: 350px"/>
+      <img src="https://http2.mlstatic.com/D_NQ_810443-MLA49654450726_042022-OO.webp" class="d-block w-100" width="1024" height='300' alt="height: 350px"/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

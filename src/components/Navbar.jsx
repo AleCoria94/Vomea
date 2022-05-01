@@ -2,7 +2,7 @@ import React from 'react'
 import Cardwidget from './Cartwidget';
 
 function Navbar(){
-    return <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    return <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-center">
     <a className="navbar-brand" href="/">VOMEA</a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
