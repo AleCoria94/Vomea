@@ -1,13 +1,15 @@
+import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer';
-import ItemDetailContainer from './components/ItemDetailContainer';
+import Rutas from './routes';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <ItemDetailContainer/>
+      <Rutas/>
       <Footer/>
     </div>
   );

@@ -1,3 +1,4 @@
+import React from 'react';
 import { productsData } from "../data/productsData";
 import { useEffect, useState} from "react";
 import ItemList from "./ItemList";
