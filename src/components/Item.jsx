@@ -12,7 +12,6 @@ function Item ({data}){
                 <h1 className="list-group-item">{data.name}</h1>
                 <li className="list-group-item">¡Quedan {data.stock} unidad/es disponible/s!</li>
                 <h1 className="list-group-item"> $ {data.price} </h1>
-                <li className="list-group-item">{data.description} </li>
           </ul>
               <div className="card-body">
       
