@@ -8,7 +8,7 @@ function Cardwidget (){
 </svg>
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-      <li><a class="dropdown-item" href="/mycart">Mi carrito</a></li>
+      <li><a class="dropdown-item" href="/Cart">Mi carrito</a></li>
       <li><a class="dropdown-item" href="/miscompras">Mis compras</a></li>
       <li><a class="dropdown-item" href="/logout">Salir</a></li>
     </ul>
