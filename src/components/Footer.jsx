@@ -48,13 +48,13 @@ function Footer (){
             Categorías
           </h6>
           <p>
-            <a href="#!" class="text-reset">Sillas</a>
+            <a href="/category/Sillas" class="text-reset">Sillas</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Sillones</a>
+            <a href="/category/Sillones" class="text-reset">Sillones</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Bazar</a>
+            <a href="/category/Bazar" class="text-reset">Bazar</a>
           </p>
           <p>
             <a href="#!" class="text-reset">Disabled</a>

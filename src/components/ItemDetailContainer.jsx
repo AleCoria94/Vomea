@@ -12,9 +12,11 @@ useEffect (() => {
 getProducts().then( data => {
 
     setProducts(data);
+    console.log(data);
 })
 })
-const params = useParams()
+const params = useParams();
+console.log(params)
 const getProducts = ()=>{
     return new Promise ((resolve, eject) =>{
         setTimeout (()=>{
