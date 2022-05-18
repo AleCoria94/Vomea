@@ -1,0 +1,13 @@
+
+.row-cols-4 {
+    width: 100%;
+}
+@media (min-width: 768px){
+.row-cols-4 {
+    width: 33.33%;
+}}
+
+@media (min-width: 992px){
+.row-cols-4{
+    width: 100%;}
+}

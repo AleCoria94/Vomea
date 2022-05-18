@@ -2,18 +2,21 @@ import React from "react";
 import './Item.css'
 
 function Item ({data}){
-        const urlpath = "/item/" +data.id ;
+        const url = data.id - 1;
+        const urlpath = "/item/" + url ;
         return <>
 
-        <div className="card d-flex justify-content-around">
+        <div className="card d-flex">
         <div className="card-body">
-      
-            <ul className="list-group list-group-flush">
-                <img src={data.img} class="card-img-top" widht="100" height="100" alt="..."/>
-                <h1 className="list-group-item">{data.name}</h1>
-                <li className="list-group-item">¡Quedan {data.stock} unidad/es disponible/s!</li>
+                <div className="img">
+                    <img src={data.img} class="card-img-top img-fluid" alt="..."/>
+                </div>
+                
+            <ul className="list-group list-group-flush text-center">
+                
+                <h3 className="list-group-item">{data.name}</h3>
                 <h1 className="list-group-item"> $ {data.price} </h1>
-                <a href={urlpath} className="btn btn-primary btn-sm d-flex">Ver Detalle</a>
+                <a href={urlpath} className="btn btn-primary btn-sm d-flex text-center">Ver Detalle</a>
           </ul>
             
     </div>

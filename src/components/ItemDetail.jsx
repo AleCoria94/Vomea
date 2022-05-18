@@ -16,8 +16,11 @@ export default function ItemDetail({data}){
     <div className="card d-flex justify-content-around">
         <div className="card-body-sm-3">
             <div className="row">
-                <div className="col-sm">
-                    <img src={data.img} className="card-img-top img-fluid" alt="..."/>
+                <div className="col-sm-6">
+                <div class="container">
+                        <img src={data.img} className="card-img-top img-fluid" alt="..."/>
+                    </div>
+                    
                 </div>
                 <div className="col">
                     <h1 className="list-group-item">{data.name}</h1>
@@ -41,6 +44,7 @@ export default function ItemDetail({data}){
                     <li className="list-group-item">{data.description} </li>
                 </div>
             </div>
+            
         </div>
                 
                 
