@@ -1,9 +1,11 @@
 import React from 'react';
 import { productsData } from "../data/productsData";
 import { useEffect, useState} from "react";
+import {useParams} from 'react-router-dom'
 import ItemList from "./ItemList";
 
-const ItemDetailContainer = () =>{
+const ItemListContainer = () =>{
+    
     const[products, setProducts]= useState([])
     const[loading, setLoading] = useState(true)
 
@@ -12,6 +14,8 @@ getProducts().then( data => {
     setProducts(data);
 })
 })
+let{categoryid} = useParams();
+console.log("categorrrry: ",categoryid)
 
 const getProducts = ()=>{
     return new Promise ((resolve, eject) =>{
@@ -34,4 +38,4 @@ const getProducts = ()=>{
         </div> 
     )
 }
-export default ItemDetailContainer;
+export default ItemListContainer;

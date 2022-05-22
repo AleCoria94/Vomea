@@ -16,7 +16,6 @@ getProducts().then( data => {
 })
 })
 const params = useParams();
-console.log(params)
 const getProducts = ()=>{
     return new Promise ((resolve, eject) =>{
         setTimeout (()=>{
